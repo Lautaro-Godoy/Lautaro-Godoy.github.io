@@ -1,0 +1,220 @@
+* {margin: 0;padding: 0;}
+
+body{font-family: 'Montserrat', sans-serif; background-color: #8e8e8e;}
+
+
+
+#pagina{
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: #ededed;
+    margin: 50px auto;
+    padding: 30px;
+    color: #FF6862;
+}
+
+.foto {
+    width: 13%;
+    min-width: 130px;
+    max-width: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.infodecontacto {
+    width: 70.9%;
+    display: inline-block;
+}
+
+.nombre {
+    margin-bottom: -5px;
+}
+.trabajo {
+    display: inline-block;
+}
+
+.detallesdecontacto {
+    background: #FF6862;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* datos personales */
+
+#datos-personales h3 {
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#datos-personales table td {
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+#datos-personales table tr td:first-child {
+    width: 200px;
+    
+}
+
+#datos-personales table tr td:nth-child(2) {
+    width: 300px;
+}
+
+/* orden */
+
+#orden h3 {
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#orden table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+
+#orden table tr.orden td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#orden table tr.orden td {
+    padding-bottom: 25px;
+} 
+
+/* habilidades y experiencia */
+
+#orden1 h3 {
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#orden1 table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#orden1 table tr.os1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#orden1 table tr.os2 td:first-child {
+    padding-bottom: 25px;
+}
+
+#orden1 p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* certificados, habilidades personales */
+
+#orden2 h3 {
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#orden2 table td {
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+#orden2 table tr td:first-child {
+    width: 200px;
+}
+
+#orden2 table tr td:nth-child(2) {
+    width: 300px;
+}
+
+#orden2 p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+/* iconos */
+
+.fab {
+    font-size: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 10px;
+    text-align: center;
+} 
+
+a {
+    color: #1C9C94;
+    text-decoration: none;
+} 
+
+a .fab {
+    color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+/* boton */
+
+.btn-up {
+    width: 50px;
+    height: 50px;
+    outline: 0;
+    border-radius: 50%;
+    border: 1px solid #FF6862;
+    background-color: #FF6862;
+    position: fixed;
+    right: 20px;
+    left: 94%;
+    bottom: 40px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-arrow-up{
+    color: #000;
+    font-size: 18px;
+}
+
+.btn-up:hover{
+    opacity: .55;
+
+}
+
+.hide{
+    opacity: 0;
+}
+
+.active{
+    opacity: 1;
+}
