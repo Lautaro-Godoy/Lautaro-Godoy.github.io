@@ -7,4 +7,5 @@ Curriculum vitae con datos ficticios
 HTML / CSS / JavaScript  --> los archivos se encuentran en la carpeta /Proyecto final
 
 Alumno: Lautaro Godoy
+
 Email: lautarogodoy.unlp@gmail.com
